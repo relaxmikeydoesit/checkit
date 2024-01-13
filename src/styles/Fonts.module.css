@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Signika";
+    src: url(./fonts/Signika-VF.ttf);
+}
+
+.sig {
+    font-family: "Signika";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+@font-face {
+    font-family: "RobotoMono";
+    src: url(./fonts/RobotoMono-VF.ttf);
+}
+
+.romo {
+    font-family: "RobotoMono";
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+}

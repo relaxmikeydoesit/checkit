@@ -1,0 +1,38 @@
+.footer {
+    background-color: darkslateblue;
+    padding: 20px;
+    text-align: center;
+    height: 15vh;
+    width: 100vw;
+    border-top: lavender 2px double;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.footer p {
+    width: 100%;
+    font-size: 22px;
+    font-family: "Signika";
+    color: #efefef;
+}
+.github {
+    width: 120px;
+    height: 120px;
+
+}
+
+@media screen and (max-width: 700px){
+    .footer {
+        /* flex-direction: column; */
+        height: auto;
+    }
+    .github {
+        width: auto;
+        height: 120px;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+    
+}
