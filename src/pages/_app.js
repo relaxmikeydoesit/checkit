@@ -3,6 +3,7 @@ import 'semantic-ui-css/semantic.min.css';
 import '@/styles/globals.css';
 import {Menu, Input, Icon, Header} from 'semantic-ui-react';
 import Link from 'next/link';
+import Footer from '@/components/Footer';
 
 export default function App({ Component, pageProps }) {
   
@@ -23,7 +24,7 @@ export default function App({ Component, pageProps }) {
     
       </Menu>
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <Footer />
       </div>
   )
 }
