@@ -2,23 +2,32 @@
     background-color: darkslateblue;
     padding: 20px;
     text-align: center;
-    height: 15vh;
+    height: 180px;
     width: 100vw;
     border-top: lavender 2px double;
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* justify-content: space-between; */
 
+}
+.footerText {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
 }
 .footer p {
     width: 100%;
-    font-size: 22px;
+    font-size: 24px;
     font-family: "Signika";
     color: #efefef;
 }
 .github {
     width: 120px;
     height: 120px;
+    padding-right: 40px;
 
 }
 
