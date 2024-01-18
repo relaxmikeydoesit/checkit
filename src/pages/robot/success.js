@@ -6,7 +6,7 @@ export default function RobotSuccess() {
     return (
         <>
         <h1>Success!! You've just traversed through a nested route. Claim your reward here.  </h1>
-        <Link href={"../robot/planner.js"}>Click Here!</Link>
+        <Link href={"robot/planner.js"}>Click Here!</Link>
         </>
     );
     }

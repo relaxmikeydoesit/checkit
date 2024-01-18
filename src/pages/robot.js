@@ -1,10 +1,18 @@
 import React from 'react'; 
 import { Image, Form, Button } from 'semantic-ui-react';
-import { Router, useRouter } from 'next/router';    
+import { useRouter } from 'next/router';    
 import styles from '@/styles/Robot.module.css';
 
 export default function Robot() {
-    return (
+
+  const router=useRouter();
+
+  function robotSubmit(e){
+    e.preventDefault();
+    router.push('/robot/planner')
+  }
+
+  return (
         <>
         <div className={styles.pageRobot}>
         <Image className={styles.herobot} src='greenwide.jpeg' />
@@ -20,7 +28,7 @@ export default function Robot() {
       <label>Email</label>
       <input placeholder='Email Address?' />
     </Form.Field>
-    <Button type='submit' onClick='/robot/success.js'/>
+    <Button type='link'  content='submit' onClick={robotSubmit} />
   </Form>
 </div>
 </div>
