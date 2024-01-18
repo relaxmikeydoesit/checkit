@@ -3,11 +3,7 @@ import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
 import { Card, Container, Grid, Image, Segment, Button, FormField } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
-import countapi from 'countapi-js';
 
-countapi.visits().then((result) => {
-    console.log(result.value);
-});
 // import FetchButtonComponent from '@/components/BoredButton';
 
 
@@ -39,7 +35,8 @@ export default function Home() {
   <div className={styles.romoGreeting}>Greetings and salutations!</div>
 <Image src= 'cute-robot_rawpixel.png'
  size='medium'
- href='/robot' centered />
+ href='/robot' centered 
+ alt='cute robot'/>
  
 </Container>
 </Grid.Column>

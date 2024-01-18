@@ -54,6 +54,7 @@ function App() {
               completed={task.completed}
               deleteTask={deleteTask}
               completeTask={completeTask}
+              key={task.index}
             />
           );
         })}

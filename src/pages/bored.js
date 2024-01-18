@@ -26,7 +26,7 @@ function App() {
   return (
     <>
     <div className={styles.main}>
-      <Image className={styles.hero} src= 'flash-hero.jpeg'/>
+      <Image className={styles.hero} src= 'flash-hero.jpeg' alt=''/>
       <h1>Random Activity Generator</h1>
       <Button onClick={getActivity}>Get Activity</Button>
       <h2>Here is your suggestion to beat boredom: </h2> 
