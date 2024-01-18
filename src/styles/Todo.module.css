@@ -1,6 +1,6 @@
 .pageContainer {
   width: 100%;
-  height: 75vh;
+  height: auto;
   background-image: url(../../public/bg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,13 +15,13 @@
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: auto;
+  height: fit-content;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 .addTask {
-  height: 30vh;
+  height: 260px;
   background-color: #02a4D3;
   width: 100%;
   display: flex;

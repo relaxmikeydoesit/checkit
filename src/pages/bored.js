@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Button, Image } from 'semantic-ui-react';
 import styles from '@/styles/Bored.module.css';
 import 'semantic-ui-css/semantic.min.css';
+
+
 // import ActivityIdea from '@/components/ActivityIdea';
 
 function App() {
